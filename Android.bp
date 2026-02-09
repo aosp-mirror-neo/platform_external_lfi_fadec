@@ -60,4 +60,8 @@ cc_library {
     visibility: [
         "//external/lfi:__subpackages__",
     ],
+    apex_available: [
+        "com.android.media.swcodec",
+    ],
+    min_sdk_version: "31",
 }
